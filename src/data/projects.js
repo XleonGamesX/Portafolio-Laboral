@@ -5,7 +5,7 @@ export const projects = [
     title: 'Tienda de ropa',
     category: 'Frontend',
     description: 'Desarrollo frontend de una tienda de ropa con una interfaz web orientada a la presentación de productos.',
-    technologies: ['html', 'css', 'javascript'],
+    technologies: ['html', 'css'],
     links: [{ label: 'Ver proyecto', url: 'https://xleongamesx.github.io/Portafolio/Tienda_ropa/index.html#' }]
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     title: 'Sistema de barbería',
     category: 'CRUD',
     description: 'Aplicación web orientada a la gestión de información mediante operaciones CRUD.',
-    technologies: [],
+    technologies: ['html', 'css', 'javascript', 'vue'],
     links: [{ label: 'Ver proyecto', url: 'https://crud-barberia.onrender.com/' }]
   },
   {
@@ -25,7 +25,7 @@ export const projects = [
     featured: true,
     flow: ['Frontend', 'API', 'Backend'],
     description: 'Aplicación web que integra un frontend con un backend para procesar funcionalidades relacionadas con numerología.',
-    technologies: ['nodejs', 'express', 'mongodb', 'jwt'],
+    technologies: ['nodejs', 'express', 'mongodb', 'jwt', 'nodejs'],
     links: [
       { label: 'Ver aplicación', url: 'https://frontend-numerologia.onrender.com' },
       { label: 'Ver backend', url: 'https://github.com/XleonGamesX/Numerologia.git' }
